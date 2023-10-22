@@ -10,42 +10,42 @@ This output was not an error since it technically changed the directory to the h
 ![Image](CD_Directory.png)
 
 The current directory was the home directory.
-I got that output because in changed the directory to lecture1 and so in the next line the directory i was in was the lecture1 directory.
+I got that output because it changed the directory to the lecture1 directory and so in the next line my current directory was in the lecture1 directory.
 This was not an error.
 
 ### cd with a path to a file:
 ![Image](CD_File.png)
 
 The current directory was the lecture1 directory.
-I got this output because Hello.java was not a directory. 
+I got this output because Hello.java is a file and not a directory. 
 This is an error since cd didn’t change the directory and instead it returned that Hello.java is not a directory. 
 
 ### ls with no argument:
 ![Image](LS_No_Args.png)
 
 The current directory was the home directory.
-I got this output because lecture1 is the file under the home directory. 
+I got this output because lecture1 is the directory under the home directory. 
 This is not an error.
 
 ### ls with a path to a directory:
 ![Image](LS_Directory.png)
 
 The current directory was the home directory.
-I got this output because these were the files under the lecture1 directory.
+I got this output because Hello.class, Hello.java, and README were the files and messages was the directory under the lecture1 directory.
 This is not an error.
 
 ### ls with a path to a file:
 ![Image](LS_File.png)
 
 The current directory was the lecture1 directory.
-I got this output because Hello.java was the only file in Hello.java.
+I got this output because Hello.java is a file and it lists information about the file.
 This is not an error.
 
 ### cat with no argument:
 ![Image](CAT_No_Args.png)
 
 The current directory was the home directory.
-I got no output at first, but once I typed “asdfjkl” and pressed “enter” it repeated what I typed. When cat is run without arguments, it just reads from stdin.
+I got no output at first, but once I typed “asdfjkl” and pressed “enter” it repeated what I typed. When cat is run without arguments, it just reads from stdin. It will continue to do this until you press ctrl + C.
 This is not an error.
 
 ### cat with a path to a directory:
