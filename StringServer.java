@@ -10,7 +10,7 @@ class Handler implements URLHandler {
         if (url.getPath().equals("/")) {
             String ret = ""; 
             for (int i = 0; i < words.size(); i++){
-                ret += i+1 ". " + words.get(i);
+                ret += i+1 + ". " + words.get(i) + "\n";
             }
             return ret;
         } else {
@@ -20,7 +20,7 @@ class Handler implements URLHandler {
                     words.add(parameters[1]);
                     String ret = ""; 
                     for (int i = 0; i < words.size(); i++){
-                        ret += i+1 ". " + words.get(i);
+                        ret += i+1  + ". " + words.get(i) + "\n";
                     }
                     return ret;
                 }
@@ -30,7 +30,7 @@ class Handler implements URLHandler {
     }
 }
 
-class NumberServer {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
