@@ -1,4 +1,8 @@
 ## Part 1
+[java File for StringServer.java](StringServer.java)
+![Image](StringServer_code1.png)
+![Image](StringServer_code2.png)
+
 ![Image](add-message1.png)
 In this code, handleRequest is called. The relevent argument is the url. The url contains the path, "/add-message", so the code will grab the query as parameters and split it at the "=". Now parameter is a String[] that contains "s" and "Hello". Then we add the "Hello" into words and ret all the values in words.
 ![Image](add-message2.png)
