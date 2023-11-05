@@ -10,7 +10,7 @@ In this code, the handleRequest is called like the first one and the url has the
 
 ## Part 2
 ### Private Key
-![Image](Private_Key.png)
+![Image](Real_Private_Key.png)
 ### Public Key
 ![Image](Public_Key.png)
 ### Login to ieng6
