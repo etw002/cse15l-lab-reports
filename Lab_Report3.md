@@ -83,7 +83,7 @@ find ./technical/911report -type f
 ./technical/911report/chapter-11.txt
 ```
 This is only looking for a certain type of path. Type d is looking for a directory and type f is looking for a file. This is useful for when you want to run certain commands on only files or only directories. 
-Source: I remember seeing this in class or in one of the labs.
+Source: I remember seeing this during lecture 8. 
 
 -iname
 ```
