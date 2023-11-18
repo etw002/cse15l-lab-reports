@@ -14,6 +14,7 @@
   }
 ```
 ![Image](Sympton.png)
+![Image](Sympton_NotDetected.png)
 ### Before
 ```
 static double averageWithoutLowest(double[] arr) {
