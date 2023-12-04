@@ -17,7 +17,7 @@ It was working in reverse. Here is a picture of what happened when I inputed a d
 ![Image](LabReport5Tests.png)
 ![Image](Test5.png)
 
-The edit to fix the bug was to change the if statement in line 17. Change `A[i].compareTo(A[low]) > 0` to `A[i].compareTo(A[low]) < 0`.
+The edit to fix the bug was to change the if statement on line 17 in the file LabReport5.java. Change `A[i].compareTo(A[low]) > 0` to `A[i].compareTo(A[low]) < 0`.
 
 
 ## Part 2
